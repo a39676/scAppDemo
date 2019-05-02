@@ -1,0 +1,19 @@
+# this is demo project
+
+spring:
+  application:
+    name: spring-cloud-eureka-client
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+    
+server:
+  port: 8080
+  
+# eureka:
+#   client:
+#     serviceUrl:
+#       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+#   instance:
+#     preferIpAddress: true
